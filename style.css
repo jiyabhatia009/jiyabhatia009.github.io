@@ -104,3 +104,51 @@ a:hover{
     background:#38bdf8;
 
 }
+.projects{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.projects h2{
+    font-size:40px;
+    color:#38bdf8;
+}
+
+
+.project-box{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:30px;
+
+    margin-top:40px;
+
+}
+
+
+.project-card{
+
+    background:#1e293b;
+
+    width:350px;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    text-align:left;
+
+    transition:.3s;
+
+}
+
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+}
