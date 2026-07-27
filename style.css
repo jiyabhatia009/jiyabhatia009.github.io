@@ -43,3 +43,19 @@ a{
 a:hover{
     background:#0284c7;
 }
+.about{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    color:#38bdf8;
+}
+
+.about p{
+    max-width:850px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+}
