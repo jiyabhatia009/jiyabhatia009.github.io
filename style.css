@@ -61,7 +61,7 @@ nav a:hover{
 }
 body{
     margin:0;
-    font-family:Arial,sans-serif;
+    font-family:'poppins',sans-serif;
     background:#0f172a;
     color:white;
 }
@@ -204,13 +204,15 @@ a:hover{
     text-align:left;
 
     transition:.3s;
+    
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
 
 }
 
 
 .project-card:hover{
 
-    transform:translateY(-10px);
+    transform:translateY(-10px) scale(1.02);
 
 }
 .certificate-card h3{
@@ -230,6 +232,16 @@ a:hover{
     border-radius:20px;
     font-size:14px;
     font-weight:bold;
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+.certificate-card:hover{
+
+    transform:translateY(-8px) scale(1.03);
+
+    background:#263548;
+
+    cursor:pointer;
+
 }
 .contact{
 
