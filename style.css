@@ -266,3 +266,24 @@ a:hover{
     margin:15px 0;
 
 }
+.resume-btn{
+
+    display:inline-block;
+
+    margin-left:15px;
+
+    background:transparent;
+
+    border:2px solid #38bdf8;
+
+    color:#38bdf8;
+
+}
+
+.resume-btn:hover{
+
+    background:#38bdf8;
+
+    color:#0f172a;
+
+}
