@@ -152,3 +152,21 @@ a:hover{
     transform:translateY(-10px);
 
 }
+.certificate-card h3{
+    color:#38bdf8;
+}
+
+.certificate-card p{
+    line-height:1.6;
+}
+
+.certificate-card span{
+    display:inline-block;
+    margin-top:15px;
+    background:#0f172a;
+    color:#38bdf8;
+    padding:8px 15px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+}
