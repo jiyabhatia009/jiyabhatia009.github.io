@@ -1,3 +1,64 @@
+html{
+    scroll-behavior:smooth;
+}
+
+nav{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    background:#0f172a;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 60px;
+
+    box-sizing:border-box;
+
+    z-index:1000;
+
+}
+
+nav h2{
+
+    color:#38bdf8;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:30px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+nav a:hover{
+
+    color:#38bdf8;
+
+}
 body{
     margin:0;
     font-family:Arial,sans-serif;
@@ -7,7 +68,7 @@ body{
 
 .hero{
     text-align:center;
-    padding:120px 20px;
+    padding:180px 20px 120px;
 }
 
 h1{
