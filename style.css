@@ -315,3 +315,30 @@ section h2{
     margin-bottom:20px;
     letter-spacing:1px;
 }
+@media (max-width: 768px){
+
+    nav{
+        padding:10px 20px;
+    }
+
+    nav ul{
+        gap:12px;
+    }
+
+    nav a{
+        font-size:12px;
+    }
+
+    nav h2{
+        font-size:20px;
+    }
+
+    .project-card{
+        width:90%;
+    }
+
+    .certificate-card{
+        width:90%;
+    }
+
+}
